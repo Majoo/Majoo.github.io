@@ -1,7 +1,17 @@
-/* CSS declarations go here */
+/*--------------------
+Import Google Fonts
+--------------------*/
 
+/* main font for menu. */
+@import url(http://fonts.googleapis.com/css?family=Roboto:400|Raleway:200,300,400,500,700,900);
+
+/*--------------------
+General
+--------------------*/
 body {
+  margin: 0;
   padding-top: 50px;
+  font-family: "Raleway", Sans-serif;
 }
 
 .navbar {
@@ -10,14 +20,34 @@ body {
   border-color: transparent;
 }
 
+.navbar-brand {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 24px;
+}
+
+.navbar-default .nav li a {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #333;
+}
+
 header {
   text-align: center;
   color: #333;
 }
 
 footer {
+  font-family: "Roboto", sans-serif;
   bottom: 0;
   text-align: center;
+}
+
+a {
+  color: #333;
 }
 
 .container {
@@ -28,6 +58,7 @@ footer {
 .heading {
   color: #333;
   font-size: 36px;
+  font-family: "Raleway", sans-serif;
 }
 
 .subheading {
