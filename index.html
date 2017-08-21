@@ -1,16 +1,25 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" content="I'm Patricia Paulsson, a Swedish UX designer.
+    Take a look at the cool projects I took part in!">
+  <meta name="author" content="Patricia Paulsson 2017">
+  <link rel="icon" href="img/carrot.ico">
+  <title>Patricia Paulsson ~ Portfolio</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
 <body>
-  {{>navbar}}
-  {{>header}}
-
-  {{>footer}}
-
-  <!-- Placed at the end of the document so the pages load faster -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-</body>
-
-<template name="navbar">
+  <!-- NAVBAR -->
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -32,31 +41,42 @@
       </div>
     </div>
   </nav>
-</template>
+  <!-- END NAVBAR -->
 
-<template name="header">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 col-md-offset-3">
-        <img class="img-responsive" src="img/carrot.ico" alt="">
-        <div class="intro-text">
-          <h1>User Experience Designer</h1>
-          <p>My name is Patricia and I love to design useful and relevant experiences.</p>
-          <p>Check out my portfolio projects below.</p>
+  <!-- HEADER -->
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <img class="img-responsive" src="img/carrot.ico" alt="">
+          <div class="intro-text">
+            <h1>User Experience Designer</h1>
+            <p>My name is Patricia and I love to design useful and relevant experiences.</p>
+            <p>Check out my portfolio projects below.</p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</template>
+  </header>
+  <!-- END HEADER -->
 
-<template name="footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 col-md-offset-3">
-        <a href="" class="btn btn-outline">LinkedIn</a>
-        <a href="" class="btn btn-outline">Contact</a>
-        <a href="" class="btn btn-outline">Resumé</a>
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <a href="" class="btn btn-outline">LinkedIn</a>
+          <a href="" class="btn btn-outline">Contact</a>
+          <a href="" class="btn btn-outline">Resumé</a>
+        </div>
       </div>
     </div>
-  </div>
-</template>
+  </footer>
+  <!-- EMD FOOTER -->
+
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
