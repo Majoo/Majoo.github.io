@@ -18,12 +18,13 @@ body {
   color: #333;
   background-color: #fff;
   border-color: transparent;
+  padding: 10px 0px;
 }
 
 .navbar-brand {
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 100;
-  font-size: 24px;
+  font-size: 36px;
 }
 
 .navbar-default .nav li a {
