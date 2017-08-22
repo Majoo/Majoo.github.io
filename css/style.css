@@ -12,6 +12,7 @@ body {
   margin: 0;
   padding-top: 50px;
   font-family: "Raleway", Sans-serif;
+  background-color: #fff;
 }
 
 p {
@@ -31,7 +32,7 @@ figcaption {
 
 .navbar-brand {
   font-family: "Raleway", sans-serif;
-  font-weight: 100;
+  font-weight: 200;
   font-size: 36px;
 }
 
@@ -42,6 +43,10 @@ figcaption {
     font-weight: 400;
     letter-spacing: 2px;
     color: #333;
+}
+
+section {
+  padding-bottom: 30px;
 }
 
 header {
@@ -61,7 +66,7 @@ a {
 }
 
 .container {
-  padding: 50px 0px;
+  padding: 15px 0px;
 }
 
 /* Header */
@@ -69,6 +74,14 @@ a {
   color: #333;
   font-size: 36px;
   font-family: "Raleway", sans-serif;
+}
+
+.introduction {
+  background: #fff;
+  color: #333;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  border-radius: 10px;
 }
 
 .subheading {
@@ -129,7 +142,7 @@ a {
 }
 /* End Heart shape*/
 
-/* Hover Porfolio Link Previews */
+/* Porfolio Link Previews */
 .portfolio-link {
   position: relative;
   padding: 15px 0px;
