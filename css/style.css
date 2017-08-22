@@ -184,4 +184,8 @@ a {
 .nav-link {
   font-family: "Roboto", sans-serif;
 }
+
+.nav-link:hover {
+  text-decoration: none;
+}
 /* End Portfolio Pages */
