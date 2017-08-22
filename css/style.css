@@ -178,8 +178,10 @@ a {
 .caption-header {
   font-size: 18px;
 }
-/* End Hover Porfolio Link Previews*/
+/* End Porfolio Link Previews*/
 
 /* Portfolio Pages */
-
+.nav-link {
+  font-family: "Roboto", sans-serif;
+}
 /* End Portfolio Pages */
