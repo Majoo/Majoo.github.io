@@ -74,12 +74,12 @@ a {
   color: #333;
   font-size: 36px;
   font-family: "Raleway", sans-serif;
+  padding-top: 60px;
 }
 
 .introduction {
   background: #fff;
   color: #333;
-  padding-top: 60px;
   padding-bottom: 30px;
   border-radius: 10px;
 }
