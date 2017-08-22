@@ -14,6 +14,14 @@ body {
   font-family: "Raleway", Sans-serif;
 }
 
+p {
+  padding-bottom: 30px;
+}
+
+figcaption {
+  padding-bottom:30px;
+}
+
 .navbar {
   color: #333;
   background-color: #fff;
@@ -49,6 +57,7 @@ footer {
 
 a {
   color: #333;
+  fon
 }
 
 .container {
@@ -64,6 +73,7 @@ a {
 
 .subheading {
   font-style: italic;
+  padding-bottom: 30px;
 }
 
 .intro-text {
@@ -160,3 +170,7 @@ a {
   font-size: 18px;
 }
 /* End Hover Porfolio Link Previews*/
+
+/* Portfolio Pages */
+
+/* End Portfolio Pages */
