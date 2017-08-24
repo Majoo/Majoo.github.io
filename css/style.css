@@ -1,28 +1,54 @@
-/*--------------------
-Import Google Fonts
---------------------*/
-
-/* main font for menu. */
+/* Import fonts */
 @import url(http://fonts.googleapis.com/css?family=Roboto:400|Raleway:200,300,400,500,700,900);
 
-/*--------------------
-General
---------------------*/
+/* General */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
-  margin: 0;
+  margin: 0 0 75; /* bottom = footer height */
   padding-top: 50px;
   font-family: "Raleway", Sans-serif;
   background-color: #fff;
+  padding: 25px;
+}
+
+section {
+  padding-bottom: 60px;
+}
+
+section#arubik,
+section#datatjej,
+section#segelportalen,
+section#studiecoach,
+section#styrochstall {
+  padding-bottom: 135px;
+}
+
+.container {
+  padding: 15px 0px;
 }
 
 p {
   padding-bottom: 30px;
 }
 
-figcaption {
-  padding-bottom:30px;
+a {
+  color: #333;
+  font-family: "Roboto", sans-serif;
 }
 
+.content-link {
+  font-family: "Raleway", sans-serif;
+}
+
+figcaption {
+  padding-bottom: 30px;
+}
+
+/* Navbar*/
 .navbar {
   color: #333;
   background-color: #fff;
@@ -45,31 +71,35 @@ figcaption {
     color: #333;
 }
 
-section {
-  padding-bottom: 30px;
-}
-
-header {
-  text-align: center;
-  color: #333;
-}
-
+/* Footer */
 footer {
-  font-family: "Roboto", sans-serif;
+  background-color: #f9f9f9;
   bottom: 0;
   text-align: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 75px;
+  width: 100%;
+  overflow: hidden;
 }
 
-a {
-  color: #333;
-  fon
+.footer-link {
+  font-weight: 100;
+  letter-spacing: 1px;
+  color: #444;
+  padding: 0px 15px;
 }
 
-.container {
-  padding: 15px 0px;
+footer p {
+  padding: 0;
 }
 
-/* Header */
+.created-by {
+  color: #bbb;
+}
+
+/* Headings */
 .heading {
   color: #333;
   font-size: 36px;
@@ -77,70 +107,15 @@ a {
   padding-top: 60px;
 }
 
-.introduction {
-  background: #fff;
-  color: #333;
-  padding-bottom: 30px;
-  border-radius: 10px;
-}
-
 .subheading {
   font-style: italic;
   padding-bottom: 30px;
 }
-/* End Header */
 
-/* Heart shape */
-.heart-shape {
-	position: relative;
-	width: 50px;
-	-webkit-animation: heart-beats 3s infinite;
-	animation: heart-beats 3s infinite;
+.introduction {
+  padding-bottom: 30px;
+  text-align: center;
 }
-
-.heart-shape:before,
-.heart-shape:after {
-   background: #333;
-   position: absolute;
-   width: 22px;
-   height: 35px;
-   top: 0;
-   left: 22px;
-   content: '';
-   border-radius: 50px 50px 0 0;
-   transform: rotate(-45deg) translateZ(0);
-   -webkit-transform: rotate(-45deg) translateZ(0);
-   transform-origin: 0 100%;
-   -webkit-transform-origin: 0 100%;
-}
-
-.heart-shape:after {
-   left: 0;
-   transform: rotate(45deg) translateZ(0);
-   -webkit-transform: rotate(45deg) translateZ(0);
-   transform-origin :100% 100%;
-   -webkit-transform-origin: 100% 100%;
-}
-
-
-@keyframes heart-beats {
-  0%   { transform: scale(1); background-color:black;}
-  7%  { transform: scale(1.2); }
-  12%  { transform: scale(1.1); }
-  20%  { transform: scale(1.3); }
-  60%  { transform: scale(1); }
-  100% { transform: scale(0.99); }
-}
-
-@-webkit-keyframes heart-beats {
-  0%  { -webkit-transform: scale(1); }
-  7%  { -webkit-transform: scale(1.2); }
-  12% { -webkit-transform: scale(1.1); }
-  20% { -webkit-transform: scale(1.3); }
-  60% { -webkit-transform: scale(1); }
-  100% { -webkit-transform: scale(0.99); }
-}
-/* End Heart shape*/
 
 /* Porfolio Link Previews */
 .portfolio-link {
@@ -167,6 +142,7 @@ a {
 .caption {
   text-align: center;
   color: #333;
+  font-family: "Raleway", Sans-serif;
   opacity: 0;
   position: absolute;
   top: 50%;
@@ -175,17 +151,6 @@ a {
   -ms-transform: translate(-50%, -50%)
 }
 
-.caption-header {
+.caption-heading {
   font-size: 18px;
 }
-/* End Porfolio Link Previews*/
-
-/* Portfolio Pages */
-.nav-link {
-  font-family: "Roboto", sans-serif;
-}
-
-.nav-link:hover {
-  text-decoration: none;
-}
-/* End Portfolio Pages */
