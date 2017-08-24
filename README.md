@@ -1,2 +1,2 @@
 # www.patriciapaulsson.se
-# UX Design portfolio
+# Interaction Design portfolio
