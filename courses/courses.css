@@ -1,0 +1,129 @@
+/* CSS file */
+html {
+  height: 101%;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 50px;
+  padding-top: 50px;
+
+  font-family: "Open Sans", sans-serif;
+  color: #333;
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+a {
+  cursor: pointer;
+}
+
+/* Header */
+header .heading {
+  text-align: center;
+}
+
+/* Thumbnails */
+#thumbnails {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+#thumbnails .course {
+  background-color: #07CDFF;
+  color: #fff;
+  text-align: center;
+  margin: 0.5em;
+  width: 200px;
+  height: 50px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#thumbnails .course:hover {
+  background-color: #16C172;
+  color: #fff;
+}
+
+/* Details */
+#details-container {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+
+  background-color: #fff;
+  border-radius: 5px;
+  width: 1000px;
+  text-align: left;
+}
+
+#details {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.details-link {
+  position: absolute;
+}
+
+.details-link:hover {
+  color: #16C172;
+  text-decoration: underline;
+}
+
+#details-prev {
+  top: 50px;
+  left: 0;
+}
+
+#details-next {
+  top: 50px;
+  right: 0;
+}
+
+#details-close {
+  top: 0;
+  right: 0;
+}
+
+#details .details-heading {
+  color: #07CDFF;
+}
+
+#details .school {
+  margin: 0;
+  padding: 0;
+}
+
+#details .degree, #details .ects {
+  font-size: 0.750em;
+  margin: 0;
+  padding: 0;
+}
+
+#details .degree {
+  font-style: italic;
+}
+
+#details .description {
+  line-height: 1.5em;
+}
+
+/* Footer */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 1000px;
+  color: #666;
+  line-height: 1em;
+}
+
+footer a {
+  color: inherit;
+}

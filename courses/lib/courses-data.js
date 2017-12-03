@@ -1,0 +1,123 @@
+var courses = [
+    {
+      "id": "1",
+      "uniId": "187A43",
+      "name": "Explorative Design 1 & 2",
+      "school": "Vienna University of Technology",
+      "type": ["Project"],
+      "language": "English",
+      "degree": "MScEng in Interaction Design",
+      "ects": "12",
+      "tags": ["Games", "Design", "Prototyping", "Ideation", "Teamwork", "Film", "Presentation"],
+      "description": "Seven game design challenges in which we in a short amount of time prototyped different games. For each challenge the groups were shuffled."
+    },
+    {
+      "id": "2",
+      "uniId": "187A27",
+      "name": "Design Studies",
+      "school": "Vienna University of Technology",
+      "type": ["Project", "Lectures"],
+      "language": "German",
+      "degree": "MScEng in Interaction Design",
+      "ects": "3",
+      "tags": ["Design", "Research", "Teamwork"],
+      "description": "Lectures on how design meta-research is performed using the FDS-framework. Then a group project in which we filmed fellow design students during a design session, transcribed the film and analyzed the resulting text through the FDS-framework."
+    },
+    ,
+    {
+      "id": "3",
+      "uniId": "187A83",
+      "name": "Disruptive Technologies",
+      "school": "Vienna University of Technology",
+      "type": ["Project"],
+      "language": "German",
+      "degree": "MScEng in Interaction Design",
+      "ects": "3",
+      "tags": ["Design", "Programming", "IoT"],
+      "description": "This year the theme was IoT. My colleague Marcel and I created a magic wand that lights a lamp when the wand is pointed towards it and the words \"Alohomora\" are spoken. We explored multiple concepts during design but this was what we could implement."
+    },
+    {
+      "id": "4",
+      "uniId": "184.680",
+      "name": "Information Design",
+      "school": "Vienna University of Technology",
+      "type": ["Assignments", "Lectures"],
+      "language": "English",
+      "degree": "MScEng in Interaction Design",
+      "ects": "4.5",
+      "tags": ["Design", "Visual Design", "Information Architecture", "Form", "Color"],
+      "description": "Lectures with three different lecturers: a Visual Designer, a User Experience Designer, and an Engineer. We made four assignments focusing on visual design."
+    },
+    {
+      "id": "5",
+      "uniId": "187A54",
+      "name": "Evaluation of Visualisation",
+      "school": "Vienna University of Technology",
+      "type": ["Lectures", "Assignments"],
+      "language": "German",
+      "degree": "MScEng in Interaction Design",
+      "ects": "3",
+      "tags": ["Design", "Visualisation", "Evaluation"],
+      "description": "Lectures on different ways to evaluate the quality of an information visualization, such as heuristic expert evaluation or user evaluation. We then participated as test subjects in a user study evaluating a information visualization for the police where the data consisted of criminal networks. For the examination of the course each student read one scientific article on visualization evaluation and pfresented it to the class."
+    },
+    {
+      "id": "6",
+      "uniId": "187A67",
+      "name": "Beyond the Desktop",
+      "school": "Vienna University of Technology",
+      "type": ["Project"],
+      "language": "English",
+      "degree": "MScEng in Interaction Design",
+      "ects": "6",
+      "tags": ["Design", "User Research", "Ideation", "Prototyping", "IoT"],
+      "description": "Several prototyping challenges and a design workshop lead by a designer. The last challenge was the most fun one, where me and my team created \"MoodHaus\": an Android app for controlling the atmosphere in one's home. Lightning, music, temperature etcetera. We programmed Android and Arduino and one team member hacked a power strip so that anything plugged in to the hacked power strip could be controlled through the Android app. The app contained mood presets but it was also possible to create custom moods. We also had lectures on ubiquitous computing and design."
+    },
+    {
+      "id": "7",
+      "uniId": "187A25",
+      "name": "Building Interaction",
+      "school": "Vienna University of Technology",
+      "type": ["Project"],
+      "language": "English",
+      "degree": "MScEng in Interaction Design",
+      "ects": "6",
+      "tags": ["Design", "Programming", "IoT", "Ideation", "Prototyping"],
+      "description": "Two Arduino prototyping challenges and one Kinect challenge."
+    },
+    {
+      "id": "8",
+      "uniId": "360-173",
+      "name": "Marketing Basics",
+      "school": "Vienna University of Technology",
+      "type": ["Lectures"],
+      "language": "German",
+      "degree": "MScEng in Interaction Design",
+      "ects": "3",
+      "tags": ["Marketing"],
+      "description": "Lectures on marketing with a professor who had been in the field forever. Concepts included consumer psychology, price setting, push-and-pull marketing, different market segments, and much more."
+    },
+    {
+      "id": "9",
+      "uniId": "106.200",
+      "name": "Art and Computers",
+      "school": "Vienna University of Technology",
+      "type": ["Assignments"],
+      "language": "German",
+      "degree": "MScEng in Interaction Design",
+      "ects": "3",
+      "tags": ["Art"],
+      "description": "The aim of the course seemed to be for us engineering students to learn to think with our senses. The professor encouraged us to express how different pictures made us feel. We also created digital pictures on different themes."
+    },
+    {
+      "id": "10",
+      "uniId": "187A69",
+      "name": "User Research Methods",
+      "school": "Vienna University of Technology",
+      "type": ["Project", "Lectures", "Assignments"],
+      "language": "English",
+      "degree": "MScEng in Interaction Design",
+      "ects": "6",
+      "tags": ["User Research", "Design", "Research"],
+      "description": "First we studied different user research methods such as interviews, observation, surveys... and when to use which. Then we were parted into groups and performed a user research project."
+    }
+  ]
