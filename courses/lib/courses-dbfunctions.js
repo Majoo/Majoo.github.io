@@ -1,5 +1,4 @@
 function getCourse(courseId) {
-  console.log('getCourse: '+courseId);
   for(c in courses){
 
     if (courses[c].id == courseId) {
